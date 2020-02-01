@@ -1,0 +1,21 @@
+
+.camera-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding:10%;
+  .player {
+    display: none;
+  }
+  .capture-btn {
+    border-radius: 5px;
+    color: red;
+    span{
+      font-family: Lato;
+      font-size: 12px;
+      font-weight: bold;
+      line-height: 15px;
+      text-align: center;
+      }
+  }
+}
