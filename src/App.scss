@@ -7,15 +7,17 @@
   .player {
     display: none;
   }
+  .canvas {
+    display: none
+  }
   .capture-btn {
-    border-radius: 5px;
-    color: red;
+    margin:10%;
     span{
-      font-family: Lato;
       font-size: 12px;
       font-weight: bold;
       line-height: 15px;
       text-align: center;
+      color: white;
       }
   }
 }
